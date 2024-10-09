@@ -36,18 +36,21 @@ h2 {
   text-align: center;
   color: rgb(34, 7, 60);
 }
+h3 {
+  text-align: center;
+  color: rgb(34, 7, 60);
+}
 p {
   text-align: justify;
   font-family: "Times New Roman", Times, serif;
   margin: 2em;
 }
 footer {
-  display: block;
   background-color: rgb(146, 123, 154);
   height: 50px;
   margin: 0;
   padding: 0;
   overflow: auto;
-  position: fixed;
+  position: relative;
   width: 100%;
 }
