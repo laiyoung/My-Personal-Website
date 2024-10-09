@@ -1,11 +1,22 @@
+nav {
+  box-shadow: "29 0 12px -2px black";
+  position: relative;
+  background-color: rgb(146, 123, 154);
+  height: 100px;
+  display: block;
+}
 body {
   background-color: lavender;
 }
+h1 {
+  color: rgb(205, 205, 228);
+}
 h2 {
   text-align: center;
+  color: rgb(34, 7, 60);
 }
 p {
   text-align: justify;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   margin: 2em;
 }
