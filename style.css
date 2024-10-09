@@ -1,15 +1,36 @@
 nav {
-  box-shadow: "29 0 12px -2px black";
-  position: relative;
-  background-color: rgb(146, 123, 154);
-  height: 100px;
   display: block;
+}
+h1 {
+  text-align: center;
+  color: rgb(228, 221, 234);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  position: relative;
+  top: 0;
+  width: 100%;
+  background-color: rgb(146, 123, 154);
+  padding: 10px;
+}
+li a:hover {
+  background-color: #535252;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 body {
   background-color: lavender;
-}
-h1 {
-  color: rgb(205, 205, 228);
 }
 h2 {
   text-align: center;
@@ -21,9 +42,12 @@ p {
   margin: 2em;
 }
 footer {
-  box-shadow: "29 0 12px -2px black";
-  position: relative;
+  display: block;
   background-color: rgb(146, 123, 154);
   height: 50px;
-  display: block;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  position: fixed;
+  width: 100%;
 }
