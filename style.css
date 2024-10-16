@@ -13,7 +13,8 @@ ul {
   position: relative;
   top: 0;
   width: 100%;
-  background-color: rgb(146, 123, 154);
+  background-color: rgb(146, 123, 154) !important;
+  background-color: bisque;
   padding: 10px;
 }
 li a:hover {
