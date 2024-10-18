@@ -20,14 +20,20 @@
         </ul>
       </div>
     </nav>
+    <div style=" text-align: center;">
+      <div class="circle" style="position: absolute"></div>
+      <div class="rectangle" style="position: absolute"></div>
+    </div>
 
     <main>
       <h3>Please Submit Your Information Below:</h3>
       <div>
-        <p>
+        
+        <p style="margin: 6vw;">
           Hello! If you would like to reach out, please submit your name, email,
           and message below.
         </p>
+        
       </div>
       <form>
         <label for="text">Name</label>
@@ -35,11 +41,16 @@
         <br />
         <label for="email">Email</label>
         <input type="text" />
-        <div style="padding: 1vw;">
-        <label for="text">Comment:</label>
-        <br>
-        <textarea id="userComment" rows="4" cols="50" name="comment"></textarea>
-      </div>
+        <div style="padding: 1vw">
+          <label for="text">Comment:</label>
+          <br />
+          <textarea
+            id="userComment"
+            rows="4"
+            cols="50"
+            name="comment"
+          ></textarea>
+        </div>
       </form>
       <button
         class="float-center-btn"
@@ -50,6 +61,7 @@
         Submit
       </button>
 
+  
       <footer>
         <ul>
           <li>
