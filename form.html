@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="style.css" />
     <script src="code.js"></script>
   </head>
@@ -22,9 +22,33 @@
     </nav>
 
     <main>
+      <h3>Please Submit Your Information Below:</h3>
       <div>
-        <p> Hello! I need to make a form on this page</p>
+        <p>
+          Hello! If you would like to reach out, please submit your name, email,
+          and message below.
+        </p>
       </div>
+      <form>
+        <label for="text">Name</label>
+        <input type="text" />
+        <br />
+        <label for="email">Email</label>
+        <input type="text" />
+        <div style="padding: 1vw;">
+        <label for="text">Comment:</label>
+        <br>
+        <textarea id="userComment" rows="4" cols="50" name="comment"></textarea>
+      </div>
+      </form>
+      <button
+        class="float-center-btn"
+        style="margin: 1vw"
+        type="button"
+        onclick="location.href='thankyou.html'"
+      >
+        Submit
+      </button>
 
       <footer>
         <ul>
@@ -37,6 +61,5 @@
         </ul>
       </footer>
     </main>
-
   </body>
 </html>
