@@ -10,3 +10,9 @@ navigation bar.
 
 The text-align property was used to center headers and used to format paragraphs in justify.
 
+For the About page, a CSS flexbox module was used to organize the artwork and headers. 
+
+A z-index was utilized to create the shape cluster in the corner of the Contact Me page.   
+
+An !important selector was used to change color modifications to the header.
+
